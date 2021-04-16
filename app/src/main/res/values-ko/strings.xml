@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">인디언 포커</string>
+    <string name="remainingcard">덱에 남은 카드:</string>
+    <string name="neurons">% 뉴런 활성화</string>
+    <string name="newround">새 라운드</string>
+    <string name="yourturn">당신 차례입니다.</string>
+    <string name="aithnks">AI 생각중...</string>
+    <string name="cardopen">카드 오픈</string>
+    <string name="fold">기권</string>
+    <string name="call">콜</string>
+    <string name="raise">레이즈 +</string>
+    <string name="fold10penalty">10 으로 기권 패널티 -10 칩</string>
+    <string name="playerwin">플레이어 승리!</string>
+    <string name="playerearn">플레이어 획득:</string>
+    <string name="playerlose">플레이어 패배!</string>
+    <string name="playerloss">플레이어 손실</string>
+    <string name="totalstake">총 베팅:</string>
+    <string name="mychips">내 칩:</string>
+    <string name="aichips">AI 칩:</string>
+    <string name="aibet">AI 베팅:</string>
+    <string name="mybet">내 베팅:</string>
+    <string name="bluff10bonus">10 상대로 블러핑 성공 보상 +10</string>
+    <string name="draw">Draw!</string>
+</resources>

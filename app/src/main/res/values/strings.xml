@@ -1,0 +1,25 @@
+<resources>
+
+    <string name="app_name">Indian Poker</string>
+    <string name="remainingcard">Cards remaining in deck:</string>
+    <string name="neurons">% neurons active</string>
+    <string name="newround">New round</string>
+    <string name="yourturn">Your turn...</string>
+    <string name="aithnks">AI is thinking...</string>
+    <string name="cardopen">Card open</string>
+    <string name="fold">Fold</string>
+    <string name="call">Call</string>
+    <string name="raise">Raise +</string>
+    <string name="fold10penalty">Penalty -10 from fold with 10</string>
+    <string name="playerwin">Player win!</string>
+    <string name="playerearn">Player profit:</string>
+    <string name="playerlose">Player lost!</string>
+    <string name="playerloss">Player loss: </string>
+    <string name="totalstake">Total stake:</string>
+    <string name="mychips">My chips:</string>
+    <string name="aichips">AI chips:</string>
+    <string name="aibet">AI bet:</string>
+    <string name="mybet">My bet:</string>
+    <string name="bluff10bonus">Bonus 10 from bluff against 10</string>
+    <string name="draw">Draw!</string>
+</resources>

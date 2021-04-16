@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.haruhi.bismark439.indianpoker.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Indian Poker"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onPlaygame"
+                android:text="Play game"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onAIsetting"
+                android:text="AI settings"/>
+        </LinearLayout>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="0dp"
+    android:layout_weight="6"
+
+    >
+    <TextView
+        android:id="@+id/debugging"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rule of the game \n 1. Each player draws card from a deck of cards with 1~10 cards x2 = 20 cards.
+\n 2. When 20 cards are used, a new shuffled deck will be used. \n
+3. Each player can see opponent's card, but can't see own card. \n
+4. Higher card wins.\n
+5. Folding with number 10 gives penalty of -10 chips"
+        android:textAlignment="center"/>
+</ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>
